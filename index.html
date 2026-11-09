@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joabe Junior | Desenvolvedor</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Preloader -->
+    <div id="preloader">
+        <div class="loader"></div>
+    </div>
+
+    <!-- Navbar -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+            <a href="#home" class="logo" aria-label="Joabe Junior, início">
+                <span class="logo-mark" aria-hidden="true">&lt;/&gt;</span>
+                <span>Joabe<span class="logo-accent">.dev</span></span>
+            </a>
+            
+            <ul class="nav-links">
+                <li><a href="#home" class="nav-link">Início</a></li>
+                <li><a href="#sobre" class="nav-link">Serviços</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projetos" class="nav-link">Projetos</a></li>
+                <li><a href="#contato" class="nav-link">Contato</a></li>
+            </ul>
+
+            <div class="nav-actions">
+                <button id="theme-toggle" aria-label="Alternar Tema">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <div class="menu-toggle" id="mobile-menu">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="home" class="hero">
+        <div class="container hero-wrapper">
+            <div class="hero-content reveal-left">
+                <span class="badge-text">Inovação através do código</span>
+                <h1 class="hero-title">Olá, eu sou <br><span class="gradient-text">Joabe Junior</span></h1>
+                <h2 class="hero-subtitle">Eu construo <span class="typed-text"></span><span class="cursor-blink">&nbsp;</span></h2>
+                
+                <p class="hero-desc">Direto de Pernambuco, sou estudante do 6º período de Análise e Desenvolvimento de Sistemas. Focado em criar soluções eficientes, banco de dados bem estruturados e código limpo.</p>
+                
+                <div class="hero-cta">
+                    <a href="#projetos" class="btn btn-primary">Ver Projetos <i class="fas fa-arrow-right"></i></a>
+                    <!-- Botão de Download do Currículo -->
+                    <a href="assets/curriculo/joabe-goncalves-dos-santos-junior.pdf" download="Joabe_Goncalves_dos_Santos_Junior.pdf" class="btn btn-outline"><i class="fas fa-file-pdf"></i> Baixar Currículo</a>
+                </div>
+            </div>
+
+            <div class="hero-visual reveal-right">
+                <div class="image-wrapper glass-panel">
+                    <img src="assets/images/foto-perfil.jpeg" alt="Joabe Junior" class="profile-img">
+                    <div class="floating-badge badge-1"><i class="fab fa-php"></i></div>
+                    <div class="floating-badge badge-2"><i class="fab fa-java"></i></div>
+                    <div class="floating-badge badge-3"><i class="fas fa-database"></i></div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Serviços -->
+    <section id="sobre" class="section alternate-bg">
+        <div class="container">
+            <div class="section-header reveal-up">
+                <h2>Meus <span class="gradient-text">Serviços</span></h2>
+                <p>O que posso trazer para o seu time ou projeto.</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card glass-panel reveal-up">
+                    <i class="fas fa-code service-icon"></i>
+                    <h3>Desenvolvimento Front-end</h3>
+                    <p>Criação de interfaces visuais interativas e amigáveis utilizando HTML, CSS e JavaScript puro.</p>
+                </div>
+                <div class="service-card glass-panel reveal-up" style="transition-delay: 0.1s;">
+                    <i class="fas fa-server service-icon"></i>
+                    <h3>Arquitetura Back-end</h3>
+                    <p>Construção da lógica de negócio e modelagem de banco de dados estruturados com PHP e Java.</p>
+                </div>
+                <div class="service-card glass-panel reveal-up" style="transition-delay: 0.2s;">
+                    <i class="fas fa-mobile-alt service-icon"></i>
+                    <h3>Design Responsivo</h3>
+                    <p>Aplicações perfeitamente adaptadas para funcionar em qualquer dispositivo, do celular ao monitor ultrawide.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="section">
+        <div class="container">
+            <div class="section-header reveal-up">
+                <h2>Tecnologias e <span class="gradient-text">Ferramentas</span></h2>
+                <p>Habilidades organizadas por área de atuação.</p>
+            </div>
+            
+            <div class="skills-bento">
+                <div class="skill-category glass-panel reveal-up">
+                    <div class="category-header">
+                        <i class="fas fa-laptop-code"></i>
+                        <h3>Front-end</h3>
+                    </div>
+                    <div class="skill-tags">
+                        <span><i class="fab fa-html5"></i> HTML5</span>
+                        <span><i class="fab fa-css3-alt"></i> CSS3</span>
+                        <span><i class="fab fa-js"></i> JavaScript</span>
+                        <span>UI/UX</span>
+                    </div>
+                </div>
+
+                <div class="skill-category glass-panel reveal-up" style="transition-delay: 0.1s;">
+                    <div class="category-header">
+                        <i class="fas fa-server"></i>
+                        <h3>Back-end</h3>
+                    </div>
+                    <div class="skill-tags">
+                        <span><i class="fab fa-php"></i> PHP</span>
+                        <span><i class="fab fa-java"></i> Java</span>
+                        <span><i class="fab fa-node-js"></i> Node.js</span>
+                        <span><i class="fas fa-database"></i> SQL</span>
+                    </div>
+                </div>
+
+                <div class="skill-category glass-panel reveal-up" style="transition-delay: 0.2s;">
+                    <div class="category-header">
+                        <i class="fas fa-tools"></i>
+                        <h3>Ferramentas</h3>
+                    </div>
+                    <div class="skill-tags">
+                        <span><i class="fab fa-git-alt"></i> Git</span>
+                        <span><i class="fab fa-github"></i> GitHub</span>
+                        <span>VS Code</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+            <!-- Projetos -->
+    <section id="projetos" class="section alternate-bg">
+        <div class="container">
+            <div class="section-header reveal-up">
+                <h2>Projetos em <span class="gradient-text">Destaque</span></h2>
+            </div>
+            <div class="portfolio-grid">
+                
+                <!-- Projeto 1: ONG Anjos do Poço -->
+                <div class="portfolio-card reveal-up">
+                    <div class="portfolio-img">
+                        <img src="assets/images/projeto-adocao.png" alt="Projeto 1">
+                        <div class="portfolio-overlay">
+                            <a href="https://github.com/Joabejunior444/Site-Pra-Ong" class="portfolio-link" target="_blank"><i class="fab fa-github"></i> Código</a>
+                            <a href="https://joabejunior444.github.io/Site-Pra-Ong/" class="portfolio-link" target="_blank"><i class="fas fa-external-link-alt"></i> Acessar</a>
+                        </div>
+                    </div>
+                    <div class="portfolio-info glass-panel">
+                        <h3>Plataforma de Adoção - ONG</h3>
+                        <p>Projeto Interdisciplinar universitário desenvolvido para a ONG Anjos do Poço. O sistema tem como objetivo principal conectar futuros tutores a animais resgatados, facilitando a adoção.</p>
+                        <div class="tags">
+                            <span>HTML5</span> 
+                            <span>CSS3</span> 
+                            <span>JS</span> 
+                            <span>PHP</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Projeto 2: TaskGO -->
+                <div class="portfolio-card reveal-up" style="transition-delay: 0.1s;">
+                    <div class="portfolio-img">
+                        <img src="assets/images/projeto-taskgo.png" alt="Página inicial do marketplace TaskGO">
+                        <div class="portfolio-overlay">
+                            <a href="https://github.com/Joabejunior444/Projeto-Inter-Atualizado" class="portfolio-link" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i> Código</a>
+                            <a href="https://taskgo-pi.vercel.app" class="portfolio-link" target="_blank" rel="noopener noreferrer"><i class="fas fa-external-link-alt"></i> Acessar</a>
+                        </div>
+                    </div>
+                    <div class="portfolio-info glass-panel">
+                        <h3>TaskGO - Marketplace</h3>
+                        <p>Marketplace de serviços locais com estimativa de preço por IA. O back-end está desenvolvido no projeto, mas não está hospedado; recursos que dependem do servidor não ficam ativos na demonstração.</p>
+                        <div class="tags">
+                            <span>JavaScript</span> 
+                            <span>HTML5</span> 
+                            <span>CSS3</span>
+                            <span>Java</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Projeto 3: 7 Palavras -->
+                <div class="portfolio-card reveal-up" style="transition-delay: 0.2s;">
+                    <div class="portfolio-img">
+                        <img src="assets/images/projeto-7-palavras.png" alt="Tela inicial do jogo 7 Palavras">
+                        <div class="portfolio-overlay">
+                            <a href="https://github.com/Joabejunior444/Jogo7Palavras" class="portfolio-link" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i> Código</a>
+                            <a href="https://jogo7palavras.vercel.app" class="portfolio-link" target="_blank" rel="noopener noreferrer"><i class="fas fa-external-link-alt"></i> Acessar</a>
+                        </div>
+                    </div>
+                    <div class="portfolio-info glass-panel">
+                        <h3>7 Palavras</h3>
+                        <p>Jogo de duplas em que o mestre dá uma dica de uma palavra e as equipes tentam adivinhar. Inclui categorias, níveis de dificuldade, pontuação e controle de rodadas.</p>
+                        <div class="tags">
+                            <span>HTML5</span> 
+                            <span>CSS3</span> 
+                            <span>JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Contato -->
+    <section id="contato" class="section">
+        <div class="container">
+            
+            <div class="contact-wrapper">
+                
+                <!-- Lado Esquerdo: Textos e Links -->
+                <div class="contact-left reveal-left">
+                    <div class="contact-header-new">
+                        <span class="badge-text" style="background: transparent; padding: 0; letter-spacing: 2px;">VAMOS CONVERSAR</span>
+                        <h2>Entre em <span class="gradient-text">contato</span></h2>
+                        <p>Pronto para transformar suas ideias em código? Me envie uma mensagem direta ou conecte-se comigo pelas redes.</p>
+                    </div>
+
+                    <div class="contact-links-wrapper">
+                        <!-- LinkedIn -->
+                        <a href="https://www.linkedin.com/in/joabe-junior-dev/" target="_blank" class="contact-link-item glass-panel">
+                            <div class="contact-link-left">
+                                <div class="contact-icon-box"><i class="fab fa-linkedin-in"></i></div>
+                                <span class="contact-link-name">LinkedIn</span>
+                            </div>
+                            <i class="fas fa-arrow-right contact-link-arrow"></i>
+                        </a>
+
+                        <!-- Instagram -->
+                        <a href="https://www.instagram.com/joabejunior77/" target="_blank" class="contact-link-item glass-panel">
+                            <div class="contact-link-left">
+                                <div class="contact-icon-box"><i class="fab fa-instagram"></i></div>
+                                <span class="contact-link-name">Instagram</span>
+                            </div>
+                            <i class="fas fa-arrow-right contact-link-arrow"></i>
+                        </a>
+
+                        
+                    </div>
+                </div>
+
+                <!-- Lado Direito: Formulário Funcional (FormSubmit) -->
+                <div class="contact-right reveal-right">
+                    <!-- COLOQUE SEU E-MAIL REAL NO ACTION ABAIXO -->
+                    <form action="https://formsubmit.co/joabejunior2014@gmail.com" method="POST" class="contact-form glass-panel">
+                        
+                        <!-- Configurações ocultas para melhorar o envio -->
+                        <input type="hidden" name="_subject" value="Novo contato do seu Portfólio!">
+                        <input type="hidden" name="_template" value="table">
+                        
+                        <div class="input-group">
+                            <input type="text" id="name" name="Nome" required placeholder=" ">
+                            <label for="name">Seu Nome</label>
+                        </div>
+                        <div class="input-group">
+                            <input type="email" id="email" name="Email" required placeholder=" ">
+                            <label for="email">Seu E-mail</label>
+                        </div>
+                        <div class="input-group">
+                            <textarea id="message" name="Mensagem" rows="5" required placeholder=" "></textarea>
+                            <label for="message">Sua Mensagem</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block">Enviar Mensagem <i class="fas fa-paper-plane"></i></button>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-content">
+            <div class="footer-logo"><i class="fas fa-terminal"></i> Joabe</div>
+            <div class="social-links">
+                <a href="https://github.com/Joabejunior444"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/joabe-junior-dev/"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+            <p>&copy; 2026 Joabe Junior. Desenvolvido com código limpo e dedicação.</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
